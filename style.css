@@ -1,0 +1,118 @@
+/*Color and Font styles */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, footer {
+    background-color: #1F2937;
+    flex-shrink: 0;
+}
+
+ 
+h1 {
+    font-size: 48px;
+    color: #F9FaF8;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    margin-bottom: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    color: #E5E7Eb;
+    font-weight: 200;
+    max-width: 300px;
+    margin-right: 30px;
+}
+
+h6{
+    color: #E5E7EB;
+    
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+a {
+    color: #E5E7Eb;
+    text-decoration: none;
+}
+
+.quote {
+    background-color: #E5E7Eb;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.reminder {
+    background-color: #3882F6
+}
+
+/* Flexbox */
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    flex-shrink: 0;
+}
+.topheader, .intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.midheader {
+    display: flex;
+    justify-content: center;
+}
+
+.headerlink {
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+content, .cards {
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 40px; */
+}
+
+content {
+    flex-grow: 1;
+}
+
+.card-container {
+    flex-direction: row;
+    display: flex;
+}
+
+/* Icons and Pictures */
+
+img {
+    width: 300px;
+    height:auto;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+button {
+    max-width: 100px;
+    border-radius: 20px;
+    color: white;
+}
