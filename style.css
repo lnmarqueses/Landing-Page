@@ -4,9 +4,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family:sans-serif
 }
 
-.header, footer {
+.header, .footer {
     background-color: #1F2937;
     flex-shrink: 0;
 }
@@ -15,8 +16,9 @@ body {
 h1 {
     font-size: 48px;
     color: #F9FaF8;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-align: justify;
     margin-bottom: 0;
+    font-weight: bolder;
 }
 
 h2 {
@@ -33,12 +35,15 @@ h3 {
 
 h6{
     color: #E5E7EB;
+    font-size: 20px;
+    padding: 0px 25px;
     
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bolder;
 }
 
 button {
@@ -46,6 +51,7 @@ button {
 }
 
 a {
+
     color: #E5E7Eb;
     text-decoration: none;
 }
@@ -54,11 +60,35 @@ a {
     background-color: #E5E7Eb;
     color: #1F2937;
     font-style: italic;
-    font-size: 36px;
+    font-size: 30px;
+    padding: 70px;
+    margin: 20px 0;
+    text-align: center;
 }
 
 .reminder {
-    background-color: #3882F6
+    background-color: #3882F6;
+    margin: 20px 120px;
+    padding: 30px;
+    text-align: center;
+    color: #E5E7Eb;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.footer {
+    text-align: end;
+
+}
+
+p.links{
+    color: black;
+}
+
+p.author {
+    font-size: 20px;
+    text-align: right;
+    margin: ;
 }
 
 /* Flexbox */
@@ -67,9 +97,11 @@ a {
     flex-direction: column;
     padding: 0 20px;
     flex-shrink: 0;
+    padding-bottom: 20px;
 }
 .topheader, .intro {
     display: flex;
+    padding: 10px 40px;
     justify-content: space-between;
 }
 
@@ -79,7 +111,7 @@ a {
 }
 
 .headerlink {
-    gap: 20px;
+    font-family: ;
 }
 
 .container {
@@ -90,16 +122,21 @@ a {
 content, .cards {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    
     /* margin: 0 40px; */
 }
 
 content {
     flex-grow: 1;
+
 }
 
 .card-container {
-    flex-direction: row;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
 
 /* Icons and Pictures */
@@ -111,8 +148,20 @@ img {
     margin: 20px;
 }
 
+img.content {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #3882f6;
+    
+}
+
 button {
     max-width: 100px;
     border-radius: 20px;
     color: white;
+}
+
+button.find {
+    font-size: 20px;
+
 }
