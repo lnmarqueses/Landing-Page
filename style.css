@@ -14,7 +14,7 @@ body {
 
  
 h1 {
-    font-size: 48px;
+    font-size: 60px;
     color: #F9FaF8;
     text-align: justify;
     margin-bottom: 0;
@@ -23,13 +23,14 @@ h1 {
 
 h2 {
     text-align: center;
+    font-size: 30px;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 20px;
     color: #E5E7Eb;
     font-weight: 200;
-    max-width: 300px;
+    max-width: 500px;
     margin-right: 30px;
 }
 
@@ -44,6 +45,7 @@ h6{
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bolder;
+    margin-left: 50px;
 }
 
 button {
@@ -68,8 +70,8 @@ a {
 
 .reminder {
     background-color: #3882F6;
-    margin: 20px 120px;
-    padding: 30px;
+    margin: 20px 200px;
+    padding: 30px 50px;
     text-align: center;
     color: #E5E7Eb;
     font-size: 20px;
@@ -101,17 +103,21 @@ p.author {
 }
 .topheader, .intro {
     display: flex;
-    padding: 10px 40px;
+    padding: 10px 100px;
+    gap: 20px;
     justify-content: space-between;
+}
+
+.headerlink {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .midheader {
     display: flex;
     justify-content: center;
-}
-
-.headerlink {
-    font-family: ;
 }
 
 .container {
@@ -123,6 +129,8 @@ content, .cards {
     display: flex;
     flex-direction: column;
     text-align: center;
+    font-size: 20px;
+    font-weight: bold;
     
     /* margin: 0 40px; */
 }
@@ -142,23 +150,25 @@ content {
 /* Icons and Pictures */
 
 img {
-    width: 300px;
+    width: 500px;
     height:auto;
     border-radius: 20px;
     margin: 20px;
 }
 
 img.content {
-    width: 200px;
-    height: 200px;
-    border: 1px solid #3882f6;
+    width: 300px;
+    height: 300px;
+    border: 5px solid #3882f6;
     
 }
 
 button {
-    max-width: 100px;
+    max-width: 120px;
     border-radius: 20px;
     color: white;
+    font-size: 20px;
+    padding: 8px;
 }
 
 button.find {
